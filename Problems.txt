@@ -1,0 +1,4 @@
+01/30 - When the code was executed, it did not find the module imutils; That was because at the time of compilation,
+        python was looking over the C:\Users\CT-SANTANDER21\AppData\Local\Programs\Python\Python38-32\Lib\site-packages
+        instead of Lib folder.
+01/30 - Python did not find the name of the tracking algorithm, it is necessary to install opencv-contrib-python (pip install opencv-contrib-python)
